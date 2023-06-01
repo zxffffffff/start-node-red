@@ -28,6 +28,20 @@
     ```
 
 
+## 嵌入（Embedding）
+- https://nodered.org/docs/user-guide/runtime/embedding
+    ```bash
+    npm install express node-red
+    ```
+    ```js
+    var http = require('http');
+    var express = require("express");
+    var RED = require("node-red");
+    ...
+    RED.start();
+    ```
+
+
 ## 自定义节点（Node）
 - https://nodered.org/docs/creating-nodes/first-node
 - 初始化包 `npm init` 得到 `package.json`
